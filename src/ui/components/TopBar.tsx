@@ -1,5 +1,7 @@
 import React from "react";
 
+import "@css/components/TopBar.scss";
+
 class TopBar extends React.PureComponent {
     constructor(props: any) {
         super(props);

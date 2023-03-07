@@ -24,6 +24,7 @@
 
     "@tauri-apps/api": "^1.2.0"
   },
+
   "devDependencies": {
     "typescript": "^4.6.4",
     "@types/node": "^18.7.10",
