@@ -1,6 +1,7 @@
 import React from "react";
 
 import TopBar from "@components/TopBar";
+import SideBar from "@components/SideBar"
 
 import "@css/App.scss";
 
@@ -15,11 +16,12 @@ class App extends React.Component<any, any> {
                 <TopBar />
 
                 <img className={"Background"}
-                    alt={"Background"}
-                    src={"https://api.grasscutter.io/cultivation/bgfile"}
+                     alt={"Background"}
+                     src={"https://api.grasscutter.io/cultivation/bgfile"}
                 />
 
                 <a>Hello World!</a>
+                <SideBar />
             </div>
         );
     }
